@@ -1,0 +1,132 @@
+*{
+    max-height: none;
+}
+
+.shadow{
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.page-content{
+    height: calc(100vh - 100px);
+}
+
+.chat-user-info{
+    height: 100px;
+}
+
+.bottom-pos{
+    bottom: 1vh;
+}
+
+.chats-bar-content{
+    height: calc(100vh - 300px);
+}
+
+i {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.message-img{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+
+.chat-message {
+    min-height: 62px;
+    padding-left: 68px;
+    position: relative;
+}
+
+.chat-message:hover .btn-delete{
+    color:#000;
+}
+
+textarea{
+    overflow: hidden;
+}
+
+.chat-header{
+    height: 50px;
+}
+
+.pre-scrollable{
+    max-height: none;
+}
+
+.messages-list{
+}
+
+.mb-10{
+    margin-bottom: 10%;
+}
+
+.btn-delete{
+    color: transparent;
+}
+
+.cursor-default{
+    cursor: default;
+}
+
+#messages-area{
+    margin-top: 40px;
+}
+
+img-contaimer{
+    overflow: hidden;
+}
+
+.avatar{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+.about-me{
+    height: 120px;
+}
+
+#my-avatar{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    line-height: unset;
+}

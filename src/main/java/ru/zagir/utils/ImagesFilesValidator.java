@@ -1,0 +1,19 @@
+package ru.zagir.utils;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.Arrays;
+import java.util.List;
+
+@Component
+public class ImagesFilesValidator {
+
+    private final List<String> IMAGE_TYPES = Arrays.asList("image/jpeg", "image/png");
+
+    public void validate(MultipartFile file) {
+        if (IMAGE_TYPES.indexOf(file.getContentType()) == -1) {
+            throw new IllegalArgumentException("Bad image format");
+        }
+    }
+}
